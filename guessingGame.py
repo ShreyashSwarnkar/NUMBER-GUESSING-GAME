@@ -9,7 +9,7 @@ chance = 0
 while chance < 5:
     print("")
     if chance < 5:
-        print("You have",5-chance,"chance left")
+        print("You have",4-chance,"chance left")
     else:
         print("You don't have any chance")
     guess = input("  Enter your guess:- ")
@@ -36,6 +36,6 @@ while chance < 5:
             else:
                 print("You lose!!! The number was",number,"and you had chosen",guess)
         else:
-            print("You win!!! The number was",number,"and you had chosen",guess,"in",chance)
+            print("You win!!! The number was",number,"and you had chosen",guess,"in",chance,"chance")
             break
 
